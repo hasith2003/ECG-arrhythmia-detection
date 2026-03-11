@@ -1,0 +1,19 @@
+# Ignore first folder
+1/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore models
+model/
+
+# Ignore everything in data except MIT-BIH database
+data/*
+!data/mit-bih-arrhythmia-database-1.0.0/
+
+# Optional: ignore system files
+.DS_Store
+Thumbs.db
