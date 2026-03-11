@@ -72,7 +72,6 @@ def translate_beat_type(beat_type_arr, peak_loc_arr):
     return encoded_label, peak_loc_label, ignored_label
 
 
-## Noted: This part of data is done incorrectly. The dataset should be split in train and test using records as follow instead of random split. The reason for this is from the paper:
 ## How the Choice of Samples for Building Arrhythmia Classifiers ImpactTheir Performances
 ## Train dataset record number: 101, 106, 108, 109, 112, 114, 115,116, 118, 119, 122, 124, 201, 203, 205, 207, 208, 209, 215,220, 223, and 230,
 ## Test dataset record number: 100, 103, 105, 11, 113, 117, 121, 123, 200, 202, 210, 212, 213,214, 219, 221, 222, 228, 231, 232, and 234
